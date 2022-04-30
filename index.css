@@ -1,0 +1,53 @@
+#navbar{
+    display: flex;
+}
+
+#navbar > div >h2,p{
+    margin-top: 0px;
+    padding-right: 10px;
+    padding: 0px 10px 0px 10px;
+    color: yellow;
+}
+
+#search{
+    width: 800px;
+    margin: 0px 10px 0px 10px ;
+    height: 20px;
+}
+body{
+    background-color: black;
+}
+#navbar > div{
+    margin-top: 10px;
+}
+#button{
+    
+    font-size: 20px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.card{
+    color: blue;
+    /* padding: 10px; */
+}
+
+.card > img{
+    width: 220px;
+    height: 270px;
+}
+
+.card >p{
+    color: cyan;
+    padding: 0px;
+}
+
+/* .card > h4{
+    padding: 10px;
+} */
